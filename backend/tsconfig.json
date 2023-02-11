@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "baseUrl": "./src",
+    "moduleResolution": "node"      // 모듈 확인 stretigy를 지정합니다. (node)
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules"]
+}
