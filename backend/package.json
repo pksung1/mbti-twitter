@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "dev:db": "docker-compose -f docker/docker-compose.yml up -d",
-    "dev": "nodemon --watch src --exec 'npx' 'ts-node' src/app.ts"
+    "dev:server": "node ./esbuild/dev.build.js",
+    "dev:start": "nodemon ./build/app.js"
   },
   "dependencies": {
     "dotenv": "^16.0.3",

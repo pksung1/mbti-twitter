@@ -3,7 +3,8 @@
 # Installation
 ```
 yarn install
-yarn dev
+yarn dev:server // watch build
+yarn dev:start // nodemon watching build dev server
 ```
 
 
